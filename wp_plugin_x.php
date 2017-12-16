@@ -27,3 +27,9 @@ oh ! DUH! the comments were not wrapped in a php tag !!!
 //echo("<br>WP_PLUGIN_X");
 // ULTIMATELY YOU CAN NOT ECHO OUT DIRECTLY FROM THE PLUGIN INDEX I GUESS.
   ?>
+
+<?php
+
+function foo(){
+  //nothing to do...
+}
