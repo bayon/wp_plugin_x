@@ -14,7 +14,7 @@ Domain Path:  /languages
 GitHub Plugin URI: https://github.com/bayon/wp_plugin_x
 */
 <?php
-defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
+//defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  ?>
 
  <?php
@@ -25,7 +25,8 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  Warning: Cannot modify header information - headers already sent by (output started at /home/fortew6/public_html/dev/wp_dev/wp-content/plugins/wp_plugin_x/wp_plugin_x.php:1) in /home/fortew6/public_html/dev/wp_dev/wp-admin/includes/misc.php on line 1114
 got this error probably for echoing out the following lines.
 
+I think I was wrong I think the abspath code above was echoing out something ....
  */
-//echo("<br>".__FILE__);
-//echo("<br>WP_PLUGIN_X");
+echo("<br>".__FILE__);
+echo("<br>WP_PLUGIN_X");
   ?>
