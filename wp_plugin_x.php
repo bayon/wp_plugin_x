@@ -1,4 +1,4 @@
-
+<?php
 /*
 Plugin Name:  wp plugin x
 Plugin URI:    https://github.com/bayon/wp_plugin_x
@@ -13,7 +13,7 @@ Domain Path:  /languages
 
 GitHub Plugin URI: https://github.com/bayon/wp_plugin_x
 */
-<?php
+
 //defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  ?>
 
@@ -26,6 +26,7 @@ GitHub Plugin URI: https://github.com/bayon/wp_plugin_x
 got this error probably for echoing out the following lines.
 
 I think I was wrong I think the abspath code above was echoing out something ....
+oh ! DUH! the comments were not wrapped in a php tag !!!
  */
 echo("<br>".__FILE__);
 echo("<br>WP_PLUGIN_X");
