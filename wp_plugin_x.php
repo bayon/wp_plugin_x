@@ -14,17 +14,12 @@ Domain Path:  /languages
 GitHub Plugin URI: https://github.com/bayon/wp_plugin_x
 */
 
-//defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
- ?>
-
- <?php
- //
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  /*
  dev/wp_dev/wp-content/plugins/wp_plugin_x/wp_plugin_x.php
  WP_PLUGIN_X
  Warning: Cannot modify header information - headers already sent by (output started at /home/fortew6/public_html/dev/wp_dev/wp-content/plugins/wp_plugin_x/wp_plugin_x.php:1) in /home/fortew6/public_html/dev/wp_dev/wp-admin/includes/misc.php on line 1114
 got this error probably for echoing out the following lines.
-
 I think I was wrong I think the abspath code above was echoing out something ....
 oh ! DUH! the comments were not wrapped in a php tag !!!
  */
