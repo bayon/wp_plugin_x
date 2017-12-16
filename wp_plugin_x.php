@@ -23,6 +23,7 @@ got this error probably for echoing out the following lines.
 I think I was wrong I think the abspath code above was echoing out something ....
 oh ! DUH! the comments were not wrapped in a php tag !!!
  */
-echo("<br>".__FILE__);
-echo("<br>WP_PLUGIN_X");
+//echo("<br>".__FILE__);
+//echo("<br>WP_PLUGIN_X");
+// ULTIMATELY YOU CAN NOT ECHO OUT DIRECTLY FROM THE PLUGIN INDEX I GUESS.
   ?>
