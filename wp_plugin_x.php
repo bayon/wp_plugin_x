@@ -18,6 +18,14 @@ defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
  ?>
 
  <?php
-echo("<br>".__FILE__);
-echo("<br>WP_PLUGIN_X");
+ //
+ /*
+ dev/wp_dev/wp-content/plugins/wp_plugin_x/wp_plugin_x.php
+ WP_PLUGIN_X
+ Warning: Cannot modify header information - headers already sent by (output started at /home/fortew6/public_html/dev/wp_dev/wp-content/plugins/wp_plugin_x/wp_plugin_x.php:1) in /home/fortew6/public_html/dev/wp_dev/wp-admin/includes/misc.php on line 1114
+got this error probably for echoing out the following lines.
+
+ */
+//echo("<br>".__FILE__);
+//echo("<br>WP_PLUGIN_X");
   ?>
